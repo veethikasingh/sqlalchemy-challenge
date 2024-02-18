@@ -87,3 +87,5 @@ For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater 
 
 /api/v1.0/<start> and /api/v1.0/<start>/<end>
 For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+
+Note: There was a combined group stud for this home work and help from a TA
