@@ -84,7 +84,7 @@ def precipitation():
     
     start_date = '2016-08-23'
     sel = [measurement.date, 
-        func.sum(measurement.prcp)]
+           (measurement.prcp)]
     precipitation = session.query(*sel).\
             filter(measurement.date >= start_date).\
             order_by(measurement.date).all()
